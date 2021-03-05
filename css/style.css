@@ -38,7 +38,6 @@ header{
 	top:34px;
 	z-index: 3;
 	transition:.4s ease background-color;
-	border-bottom:1px solid transparent;
 }
 header:before{
 	content:"";
@@ -64,7 +63,6 @@ header.fixed__header{
 	background-color:#fff;
 	position: fixed;
 	top:0px;
-	border-color:#315369;
 }
 header.fixed__header .right__header .header__buttons a.login__button span{
 	color:#315369;
